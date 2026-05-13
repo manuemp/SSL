@@ -3,7 +3,7 @@
 int main(){
 
 
-    printf("Hello, world!\n");
+    printf("Hello, world! Versión C: %ld\n", __STDC_VERSION__);
 
     return 0;
 }
