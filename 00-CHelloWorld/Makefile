@@ -1,5 +1,5 @@
 hello: hello.c
 	gcc hello.c -o hello
 
-run: hello.c
+run: hello.exe
 	./hello.exe > out.txt
